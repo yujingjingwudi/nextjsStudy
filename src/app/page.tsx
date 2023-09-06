@@ -22,6 +22,15 @@ export default function Page() {
       <h1>
         <button type="button" onClick={() => router.push('/niubi', { scroll: true })} >title5！</button>
       </h1>
+      <h1>
+        <button type="button" onClick={() => router.push('/images/1', { scroll: true })} >goto interceptionRouter !!!</button>
+      </h1>
+      <h1>
+        <button type="button" onClick={() => router.push('/images/2', { scroll: true })} >goto interceptionRouter222 !!!</button>
+      </h1>
+      <h1>
+        <button type="button" onClick={() => router.push('/interceptionRouter', { scroll: true })} >goto interceptionRouter333 !!!</button>
+      </h1>
     </>
 
   )
